@@ -1,0 +1,17 @@
+:root {
+    --nav-margin-top: 10px;
+}
+
+p {
+    color : tomato;
+}
+
+/* sticky navigation bar */
+nav {
+    position: sticky;
+    top: var(--nav-margin-top);
+    /* avoid "jumping" */
+    margin-top: var(--nav-margin-top);
+
+    background-color: white;
+}
