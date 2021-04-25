@@ -1,0 +1,36 @@
+/* about */
+#portfolio {
+    border-radius: 10px;
+    width: 380px;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* news */
+#section-news ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#section-news ul:last-child {
+    text-align: right;
+}
+
+/* project */
+.project {
+    background-color: rgba(128, 128, 128, 0.3);
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.project-link:link, .project-link:visited {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+}
+
+.project-link:hover {
+    color: black;
+}
