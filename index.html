@@ -48,7 +48,8 @@
         <section id="section-news">
             <h1>News</h1>
             <div class="row">
-                <ul class="col-8">
+                <!-- list version of news -->
+                <!-- <ul class="col-8">
                     <li>Graduating soon from Boston College</li>
                     <li>Admitted by Boston University CE PhD</li>
                     <li>Started the last semester at Boston College</li>
@@ -57,7 +58,14 @@
                     <li>May, 2021</li>
                     <li>Mar, 2021</li>
                     <li>Jan, 2021</li>
-                </ul>
+                </ul> -->
+                <!-- Responsive Implement -->
+                <p class="col-8 news-title">Graduating soon from Boston College</p>
+                <p class="col-4 news-date">May, 2021</p>
+                <p class="col-8 news-title">Admitted by Boston University CE PhD</p>
+                <p class="col-4 news-date">Mar, 2021</p>
+                <p class="col-8 news-title">Started the last semester at Boston College</p>
+                <p class="col-4 news-date">Jan, 2021</p>
             </div>
         </section>
 
@@ -65,30 +73,53 @@
         <section id="section-projects">
             <h1>Projects</h1>
 
+            <!-- TO DO: Responsive Merge -->
             <div id="project-container" class="row">
-                <!-- Project 1: Echo-CGC -->
-                <section class="project">
-                    <a href="echo_CGC.html" class="project-link">
-                        Echo-CGC: A Communication-Efficient Byzantine-tolerant 
-                        Distributed Machine Learning Algorithm in Single-Hop Radio Network
-                    </a> <br>
-                    Qinzi Zhang, Lewis Tseng <br>
-                    <i>24th International Conference on Principles of Distributed Systems (OPODIS), 2020</i> <br>
-                    <span class="tag distributed-systems">Distributed System</span>
-                    <span class="tag machine-learning">Machine Learning</span> <br>
-                    <a href="https://arxiv.org/abs/2011.07447">Paper</a>
-                </section>
+                <!-- Left Column -->
+                <div class="col-6">
+                    <!-- Project 1: Echo-CGC -->
+                    <section class="project">
+                        <a href="echo_CGC.html" class="project-link">
+                            Echo-CGC: A Communication-Efficient Byzantine-tolerant 
+                            Distributed Machine Learning Algorithm in Single-Hop Radio Network
+                        </a> <br>
+                        Qinzi Zhang, Lewis Tseng <br>
+                        <i>24th International Conference on Principles of Distributed Systems (OPODIS), 2020</i> <br>
+                        <span class="tag distributed-systems">Distributed System</span>
+                        <span class="tag machine-learning">Machine Learning</span> <br>
+                        <a href="https://arxiv.org/abs/2011.07447">Paper</a>
+                    </section>
 
-                <!-- Project 2: Link Failure -->
-                <section class="project">
-                    <a href="" class="project-link">
-                        Exact Consensus under Global Asymmetric Byzantine Links
-                    </a> <br>
-                    Lewis Tseng, Qinzi Zhang, Saptarini Kumar, Yifan Zhang <br>
-                    <i>40th IEEE International Conference on Distributed Computing Systems (ICDCS), 2020</i> <br>
-                    <span class="tag distributed-systems">Distributed Systems</span> <br>
-                    <a href="">Paper</a> 
-                </section>
+                    <!-- Project 2: Link Failure -->
+                    <section class="project">
+                        <a href="" class="project-link">
+                            Exact Consensus under Global Asymmetric Byzantine Links
+                        </a> <br>
+                        Lewis Tseng, Qinzi Zhang, Saptarini Kumar, Yifan Zhang <br>
+                        <i>40th IEEE International Conference on Distributed Computing Systems (ICDCS), 2020</i> <br>
+                        <span class="tag distributed-systems">Distributed Systems</span> <br>
+                        <a href="">Paper</a> 
+                    </section>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-6">
+                    <!-- Project 3: Undecided -->
+                    <section class="project">
+                        <a href="" class="project-link">
+                            Undecided Project 1
+                        </a> <br>
+                        Qinzi Zhang
+                    </section>
+
+                    <!-- Project 4: Undecided -->
+                    <section class="project">
+                        <a href="" class="project-link">
+                            Undecided Project 2
+                        </a> <br>
+                        Qinzi Zhang
+                    </section>
+                </div>
             </div>
         </section>
     </div>

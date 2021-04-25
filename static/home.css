@@ -1,8 +1,7 @@
 /* about */
 #portfolio {
     border-radius: 10px;
-    width: 380px;
-    height: 300px;
+    max-width: 80%;
     object-fit: cover;
 }
 
@@ -17,6 +16,14 @@
     text-align: right;
 }
 
+.news-title, .news-date {
+    margin: 0 0 0px 0;
+}
+
+.news-date {
+    text-align: right;
+}
+
 /* project */
 #project-container {
     align-items: flex-start;
@@ -27,10 +34,18 @@
     background-color: rgba(128, 128, 128, 0.3);
     border-radius: 10px;
     padding: 10px;
-    /* flex */
-    flex-basis: 42%;
+    /* size */
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
     /* text */
     text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .project {
+        max-width: 80%;
+    }
 }
 
 .project-link:link, .project-link:visited {
