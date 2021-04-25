@@ -18,11 +18,19 @@
 }
 
 /* project */
+#project-container {
+    align-items: flex-start;
+}
+
 .project {
+    /* style */
     background-color: rgba(128, 128, 128, 0.3);
     border-radius: 10px;
-    margin: 10px 20px;
     padding: 10px;
+    /* flex */
+    flex-basis: 42%;
+    /* text */
+    text-align: left;
 }
 
 .project-link:link, .project-link:visited {
