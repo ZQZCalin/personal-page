@@ -31,7 +31,7 @@
 
 .project {
     /* style */
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(128, 128, 128, 0.15);
     border-radius: 10px;
     padding: 10px;
     /* size */
@@ -48,12 +48,16 @@
     }
 }
 
-.project-link:link, .project-link:visited {
-    text-decoration: none;
-    color: rgb(59, 59, 59);
+.project-link {
     font-weight: bold;
+    color: rgb(100, 100, 100);
 }
 
-.project-link:hover {
+a.project-link:link, .project-link:visited {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+a.project-link:hover {
     color: black;
 }

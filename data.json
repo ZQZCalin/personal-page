@@ -1,0 +1,54 @@
+{
+    "about": {
+        "name": "Qinzi Zhang",
+        "portfolio": "./image/Qinzi_Peilin.jpg",
+        "position": "Senior Student",
+        "institute": "Boston College",
+        "email": "qinzi dot zhang at bc dot edu",
+        "resume": "./Resume.pdf",
+        "github": "https://github.com/ZQZCalin",
+        "description": "Qinzi Zhang is a current senior student at Boston College and will graduate soon on May 24. His research interest is machine learning, in particular machine learning theory and distributed machine learning..."
+    },
+
+    "news": [
+        {
+            "title": "Graduating soon from Boston College",
+            "date": "May 24, 2021"
+        },
+        {
+            "title": "Admitted by Boston University CE PhD",
+            "date": "Mar, 2021"
+        },
+        {
+            "title": "Started the last semester at Boston College",
+            "date": "Jan, 2021"
+        }
+    ],
+    
+    "projects": [
+        {
+            "title": "Echo-CGC: A Communication-Efficient Byzantine-tolerant Distributed Machine Learning Algorithm in Single-Hop Radio Network",
+            "link": "./echo_CGC.html",
+            "author": ["Qinzi Zhang", "Lewis Tseng"],
+            "publication": "24th International Conference on Principles of Distributed Systems (OPODIS), 2020",
+            "tag": ["distributed systems", "machine learning"],
+            "externalLink": {
+                "paper": "https://arxiv.org/abs/2011.07447",
+                "video": "https://www.youtube.com/watch?v=m2arTczT54w",
+                "demo": null
+            }
+        },
+        {
+            "title": "Undecided 1",
+            "author": "Qinzi Zhang"
+        },
+        {
+            "title": "Undecided 2",
+            "author": "Qinzi Zhang"
+        },
+        {
+            "title": "Undecided 3",
+            "author": "Qinzi Zhang"
+        }
+    ]
+}
