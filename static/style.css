@@ -34,6 +34,7 @@ p {
     text-align: center;
     padding: 1px 5px;
     margin-right: 10px;
+    margin-bottom: 2px;
     border-radius: 5px;
     /* text */
     font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +96,7 @@ nav > ul {
     align-items: center;
 
     padding: 0;
-    height: 40px;
+    min-height: 40px;
 }
 
 nav > ul > li {
@@ -107,8 +108,12 @@ nav > ul > li {
     border-right: 1.5px solid gray;
 }
 
-nav > ul > li:first-child {
+/* nav > ul > li:first-child {
     border-left: 1.5px solid gray;
+} */
+
+nav > ul >li:last-child {
+    border-right: none;
 }
 
 /* navigation links */
@@ -122,11 +127,11 @@ nav a:hover {
     color: tomato;
 }
 
-nav a:active {
+/* nav a:active {
     text-decoration: underline;
     color: tomato;
     font-weight: bold;
-}
+} */
 
 /* normal links */
 .normal-link {

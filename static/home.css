@@ -24,6 +24,39 @@
     text-align: right;
 }
 
+/* news search bar */
+.search input {
+	width: 20%;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #a7a7a7;
+    /* transition */
+    transition: width 1s, background-color 1s;
+    transition-timing-function: ease;
+}
+
+.search input:focus {
+    width: 30%;
+    outline: none;
+    background-color: rgb(245, 245, 245);
+}
+
+/* TO DO: appearance of this button */
+/* webkit cancel button */
+::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+
+    width: 12px;
+    height: 12px;
+    /* border-radius: 6px; */
+
+    background-color: rgb(189, 189, 189);
+}
+
+
 /* project */
 #project-container {
     align-items: flex-start;
@@ -31,20 +64,29 @@
 
 .project {
     /* style */
-    background-color: rgba(128, 128, 128, 0.15);
+    background-color: rgba(185, 185, 185, 0.15);
     border-radius: 10px;
     padding: 10px;
     /* size */
     max-width: 100%;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: 20px 0 0 0;
     /* text */
     text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
     .project {
-        max-width: 80%;
+        max-width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #left-column > .project {
+        margin-left: 0;
+    }
+
+    #right-column > .project {
+        margin-right: 0;
     }
 }
 
@@ -60,4 +102,12 @@ a.project-link:link, .project-link:visited {
 
 a.project-link:hover {
     color: black;
+}
+
+hr.project-dividor {
+    margin: 0.3em;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 0;
 }

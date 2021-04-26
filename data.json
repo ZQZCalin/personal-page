@@ -1,4 +1,11 @@
 {
+    "meta": {
+        "news": {
+            "max-length": 10,
+            "max-duration": 6
+        },
+        "projects": {}
+    },
     "about": {
         "name": "Qinzi Zhang",
         "portfolio": "./image/Qinzi_Peilin.jpg",
@@ -27,8 +34,8 @@
     
     "projects": [
         {
+            "id": "echo-cgc",
             "title": "Echo-CGC: A Communication-Efficient Byzantine-tolerant Distributed Machine Learning Algorithm in Single-Hop Radio Network",
-            "link": "./echo_CGC.html",
             "author": ["Qinzi Zhang", "Lewis Tseng"],
             "publication": "24th International Conference on Principles of Distributed Systems (OPODIS), 2020",
             "tag": ["distributed systems", "machine learning"],
@@ -40,11 +47,13 @@
         },
         {
             "title": "Undecided 1",
-            "author": "Qinzi Zhang"
+            "author": "Qinzi Zhang",
+            "tag": ["distributed systems"]
         },
         {
             "title": "Undecided 2",
-            "author": "Qinzi Zhang"
+            "author": "Qinzi Zhang",
+            "tag": ["machine learning"]
         },
         {
             "title": "Undecided 3",
