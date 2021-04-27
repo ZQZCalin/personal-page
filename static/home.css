@@ -16,20 +16,27 @@
     text-align: right;
 }
 
+#news-list {
+    margin: 0.5em 0 1.33em 0;
+}
+
 .news-title, .news-date {
     margin: 0 0 0px 0;
 }
 
 .news-date {
     text-align: right;
+    margin-bottom: 0.15em;
 }
 
 /* news search bar */
 .search input {
-	width: 20%;
-    margin: 0.5rem 0 0.5rem 0;
+	width: 150px;
+    /* margin: 0.5em 0 0.5rem 0; */
+    margin: 0;
     font-size: 0.9rem;
-    padding: 0.5rem;
+    /* padding: 0.5rem; */
+    padding: 0.2rem 1rem;
     border-radius: 1rem;
     border: 1px solid #a7a7a7;
     /* transition */
@@ -38,9 +45,15 @@
 }
 
 .search input:focus {
-    width: 30%;
+    width: 100%;
     outline: none;
     background-color: rgb(245, 245, 245);
+}
+
+@media only screen and (min-width: 768px) {
+    .search input:focus {
+        width: 30%;
+    }
 }
 
 /* TO DO: appearance of this button */
@@ -90,6 +103,10 @@
     }
 }
 
+.project strong {
+    color: rgb(66, 66, 66);
+}
+
 .project-link {
     font-weight: bold;
     color: rgb(100, 100, 100);
@@ -110,4 +127,10 @@ hr.project-dividor {
 
 input[type="checkbox"] {
     margin-bottom: 0;
+}
+
+.external-links a {
+    margin-right: 5px;
+    padding-right: 5px;
+    /* border-right: 1px solid black; */
 }

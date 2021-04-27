@@ -39,11 +39,16 @@
             "author": ["Qinzi Zhang", "Lewis Tseng"],
             "publication": "24th International Conference on Principles of Distributed Systems (OPODIS), 2020",
             "tag": ["distributed systems", "machine learning"],
-            "externalLink": {
-                "paper": "https://arxiv.org/abs/2011.07447",
-                "video": "https://www.youtube.com/watch?v=m2arTczT54w",
-                "demo": null
-            }
+            "externalLink": [
+                {
+                    "name": "paper",
+                    "link": "https://arxiv.org/abs/2011.07447"
+                },
+                {
+                    "name": "video",
+                    "link": "https://www.youtube.com/watch?v=m2arTczT54w"
+                }
+            ]
         },
         {
             "title": "Undecided 1",

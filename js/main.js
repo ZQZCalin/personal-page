@@ -84,7 +84,7 @@ function renderAbout(about) {
                         <i class="far fa-file-alt"></i>
                         Resume
                     </a> | 
-                    <a href="${about.github}" class="normal-link">
+                    <a href="${about.github}" target="_blank" class="normal-link">
                         <i class="fab fa-github"></i>
                         Github
                     </a>
@@ -259,17 +259,17 @@ function renderProjectExternalLink(link) {
     // define each icon
     let paper = link.paper, video = link.video, demo = link.demo;
     let paperIcon = (paper != undefined) ? `
-    <a href="${paper}" class="normal-link">
+    <a href="${paper}" target="_blank" class="normal-link">
         <i class="far fa-file-alt"></i>
         Paper
     </a>` : "";
     let videoIcon = (video != undefined) ? `
-    <a href="${video}" class="normal-link">
+    <a href="${video}" target="_blank" class="normal-link">
         <i class="fas fa-video"></i>
         Video
     </a>` : "";
     let demoIcon = (demo != undefined) ? `
-    <a href="${video}" class="normal-link">
+    <a href="${video}" target="_blank" class="normal-link">
         <i class="fas fa-desktop"></i>
         Demo
     </a>` : "";
@@ -291,7 +291,7 @@ function renderProjectPage(project) {
 }
 
 // =================
-// Render Project
+// User Interaction
 // =================
 
 function userInteraction(data) {
