@@ -6,13 +6,14 @@
         },
         "projects": {}
     },
+    
     "about": {
         "name": "Qinzi Zhang",
-        "portfolio": "./image/Qinzi_Peilin.jpg",
+        "portfolio": "./assets/Qinzi_Peilin.jpg",
         "position": "Senior Student",
         "institute": "Boston College",
         "email": "qinzi dot zhang at bc dot edu",
-        "resume": "./Resume.pdf",
+        "resume": "./assets/Resume.pdf",
         "github": "https://github.com/ZQZCalin",
         "description": "Qinzi Zhang is a current senior student at Boston College and will graduate soon on May 24. His research interest is machine learning, in particular machine learning theory and distributed machine learning..."
     },

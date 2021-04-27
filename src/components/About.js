@@ -1,4 +1,6 @@
 import {materialIcon} from "./ExternalLink.js"
+import Resume from "../assets/Resume.pdf"
+import Portfolio from "../assets/Qinzi_Peilin.jpg"
 
 export {renderAbout}
 
@@ -8,11 +10,11 @@ function renderAbout(about) {
         <h1>About</h1>
         <div class="row">
             <div class="col-6 vertical-flex">
-                <img id="portfolio" src="${about.portfolio}" alt="Portfolio">
+                <img id="portfolio" src="${Portfolio}" alt="Portfolio">
                 <p>
                     <b>${about.position} @ ${about.institute}</b> <br>
                     e-mail: ${about.email} <br>
-                    <a href="${about.resume}" class="normal-link">
+                    <a href="${Resume}" class="normal-link">
                         ${materialIcon("resume")}
                         Resume
                     </a> | 

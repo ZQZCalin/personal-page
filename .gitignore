@@ -1,3 +1,9 @@
+node_modules
+archive
+
+dependency.txt
 echo-CGC.html
 template.html
-js/main.js
+
+src/components/main.js
+src/components/template_literal_tutorial.js

@@ -82,7 +82,7 @@ function renderProjectTitle(title, id) {
     <div class="project-title">
         <Strong>${title}</Strong>
         ${(id != undefined) ? `
-        <a href="?project=${id}" class="icon-link">
+        <a href="?project=${id}" class="project-link">
             ${materialIcon("link")}
         </a>
         ` : ""}
